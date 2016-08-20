@@ -1,0 +1,80 @@
+body {
+  height: 100%;
+  background-color: grey
+}
+.container {
+  background-color: grey;
+  border-style: double;
+  border-width: 5px;
+  width: 60%;
+  height: auto;
+  padding: 25px;
+  margin: 0 auto;
+}
+.HeaderWhiteBox {
+  background-color: white;
+  margin: 0 auto;
+  font-family: Verdana;
+}
+
+.red-button {
+  background-color: red;
+  width: 100px;
+  height: 50px;
+  border-style: solid;
+  text-align: center;
+  color: white;
+  font-size: 12pt;
+
+}
+.blue-button{
+  background-color: blue;
+  width: 100px;
+  height: 50px;
+  border-style: solid;
+  text-align: center;
+  color: white;
+  font-size: 12pt;
+}
+
+.container-for-buttons {
+  background-color: white;
+  width: 100%;
+  height: 100px;
+}
+
+.main-body {
+  background-color: white;
+  width: 100%;
+  margin-top: 20px;
+
+}
+.main-body-text {
+  background-color: white;
+
+}
+.grumpy-cat {
+  width: 100%;
+}
+
+.grumpy-cat img {
+  width: 100%;
+}
+.footer-block {
+  background-color: black;
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: flex-end;
+
+}
+.link-to-apple {
+  margin-right: 30px;
+  color: white;
+  font-size: 16pt;
+  font-family: fantasy;
+}
+.link-to-google {
+  color: white;
+  font-size: 16pt;
+  font-family: fantasy;
+}
